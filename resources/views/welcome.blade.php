@@ -46,41 +46,76 @@
 
 
 
-	<br>
-	<div id="booking"  class="w-full">
-		<div class="text-center text-4xl">Booking</div>
+	<div id="booking"  class="w-full bg-green-700">
+	  	<br>
+		<div class="text-center text-4xl text-white">Booking</div>
 		<div class="grid grid-cols-3 gap-4 h-80 w-2/4 mx-auto">
-			<div class="w-16 h-16 mx-auto my-auto text-center">
+			<div class=" mx-auto my-auto text-center text-white">
 				<a>
-					<img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/car-wheel-4-827509.png">
+					<div class="relative">
+						<img class="relative top-0 left-0 w-16 h-16 mx-auto" src="../resources/images/wheelWhite.png" alt="Workplace" width="600" />
+						
+					</div>
 					<div>Hjul</div>
 				</a>
 			</div>
-			<div class="w-16 h-16 mx-auto my-auto text-center">
+			<div class="mx-auto my-auto text-center text-white">
 				<a href="{{ route('booking') }}">
-					<img src="https://cdn4.iconfinder.com/data/icons/bold-car-element-1/512/drawing30-512.png">
+					<div class="relative">
+						<img class="relative top-0 left-0 w-16 h-16 mx-auto" src="../resources/images/breakWhite.png" alt="Workplace" width="600" />
+						
+					</div>
 					<div>Bremser</div>
 				</a>
 			</div>
-			<div class="w-16 h-16 mx-auto my-auto text-center">
-				<img src="https://static.thenounproject.com/png/172177-200.png">
-				<div>Vindusvisker</div>
+			<div class="mx-auto my-auto text-center text-white">
+				<a>
+					<div class="relative">
+						<img class="relative top-0 left-0 w-16 h-16 mx-auto" src="../resources/images/wiperWhite.png" alt="Workplace" width="600" />
+						
+					</div>
+					<div>Vindusvisker</div>
+				</a>
 			</div>
-			<div class="w-16 h-16 mx-auto my-auto text-center">
-				<img src="https://static.thenounproject.com/png/696946-200.png">
-				<div>Pære</div>
+			<div class="mx-auto my-auto text-center text-white">
+				<a>
+					<div class="relative">
+						<img class="relative top-0 left-0 w-16 h-16 mx-auto" src="../resources/images/lightWhite.png" alt="Workplace" width="600" />
+						
+					</div>
+					<div>pære</div>
+				</a>
 			</div>
-			<div class="w-16 h-16 mx-auto my-auto text-center">
-				<img src="https://cdn3.iconfinder.com/data/icons/energy-1/66/5-512.png">
-				<div>Batteri</div>	
+			<div class="mx-auto my-auto text-center text-white">
+				<a>
+					<div class="relative">
+						<img class="relative top-0 left-0 w-16 h-16 mx-auto" src="../resources/images/batteryWhite.png" alt="Workplace" width="600" />
+						
+					</div>
+					<div>Batteri</div>
+				</a>	
 			</div>
-			<div class="w-16 h-16 mx-auto my-auto text-center">
-				<img src="https://static.thenounproject.com/png/538026-200.png">
-				<div>Special anmodning</div>
+			<div class="mx-auto my-auto text-center text-white hover:underline">
+				<a>
+					<div class="relative">
+						<img class="relative top-0 left-0 w-16 h-16 mx-auto" src="../resources/images/customWhite.png" alt="Workplace" width="600" />
+						
+					</div>
+					<div>Special anmodning</div>
+				</a>
 			</div>
 		</div>
+		<br>
 	</div>
-	<br>
+	<div id="contact" class="h-96">
+			<br>
+			<div class="text-center text-green-700 text-4xl">Priser</div>
+			
+			
+			<br>
+			
+		</div>
+	</div>
 	<div id="contact" class="h-96 bg-green-700">
 			<br>
 			<div class="text-center text-white text-4xl">Kontakt</div>
