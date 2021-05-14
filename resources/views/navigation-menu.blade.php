@@ -11,22 +11,22 @@
                 </div>
 
                 <!-- Navigation Links -->
-                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 py-4 sm:flex">
                     <x-jet-nav-link href="{{ route('welcome') }}" :active="request()->routeIs('welcome')">
                         {{ __('Welcome') }}
                     </x-jet-nav-link>
                 </div>
-                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 py-4 sm:flex">
                     <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-jet-nav-link>
                 </div>
-                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 py-4 sm:flex">
                     <x-jet-nav-link href="#booking" :active="request()->routeIs('booking')">
                         {{ __('Booking') }}
                     </x-jet-nav-link>
                 </div>
-                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 py-4 sm:flex">
                     <x-jet-nav-link href="#contact" :active="request()->routeIs('contact')">
                         {{ __('Contact') }}
                     </x-jet-nav-link>
