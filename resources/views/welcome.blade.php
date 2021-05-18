@@ -46,59 +46,59 @@
 
 
 
-	<div id="booking"  class="w-full bg-gray-300 h-96">
+	<div id="booking"  class="w-full bg-gray-100 h-96">
 	  	<br>
-		<div class="text-center text-4xl text-white my-4">Booking</div>
+		<div class="text-center text-4xl text-green-700 my-4">Booking</div>
 		<div class="grid grid-cols-3 gap-4 w-2/4 mx-auto">
-			<div class="text-center text-white">
+			<div class="text-center text-green-700 hover:underline">
 				<a>
 					<div class="relative">
-						<img class="my-2 relative top-0 left-0 w-16 h-16 mx-auto" src="../resources/images/wheelWhite.png" alt="Workplace" width="600" />
+						<img class="my-2 relative top-0 left-0 w-16 h-16 mx-auto" src="../resources/images/wheelGreen.png" alt="Workplace" width="600" />
 						
 					</div>
 					<div>Hjul</div>
 				</a>
 			</div>
-			<div class="text-center text-white">
+			<div class="text-center text-green-700 hover:underline">
 				<a href="{{ route('booking') }}">
 					<div class="relative">
-						<img class="my-2 relative top-0 left-0 w-16 h-16 mx-auto" src="../resources/images/breakWhite.png" alt="Workplace" width="600" />
+						<img class="my-2 relative top-0 left-0 w-16 h-16 mx-auto" src="../resources/images/breakGreen.png" alt="Workplace" width="600" />
 						
 					</div>
 					<div>Bremser</div>
 				</a>
 			</div>
-			<div class="text-center text-white">
+			<div class="text-center text-green-700 hover:underline">
 				<a>
 					<div class="relative">
-						<img class="my-2 relative top-0 left-0 w-16 h-16 mx-auto" src="../resources/images/wiperWhite.png" alt="Workplace" width="600" />
+						<img class="my-2 relative top-0 left-0 w-16 h-16 mx-auto" src="../resources/images/wiperGreen.png" alt="Workplace" width="600" />
 						
 					</div>
 					<div>Vindusvisker</div>
 				</a>
 			</div>
-			<div class="text-center text-white">
+			<div class="text-center text-green-700 hover:underline">
 				<a>
 					<div class="relative">
-						<img class="my-2 relative top-0 left-0 w-16 h-16 mx-auto" src="../resources/images/lightWhite.png" alt="Workplace" width="600" />
+						<img class="my-2 relative top-0 left-0 w-16 h-16 mx-auto" src="../resources/images/lightGreen.png" alt="Workplace" width="600" />
 						
 					</div>
 					<div>pære</div>
 				</a>
 			</div>
-			<div class="text-center text-white">
+			<div class="text-center text-green-700 hover:underline">
 				<a>
 					<div class="relative">
-						<img class="my-2 relative top-0 left-0 w-16 h-16 mx-auto" src="../resources/images/batteryWhite.png" alt="Workplace" width="600" />
+						<img class="my-2 relative top-0 left-0 w-16 h-16 mx-auto" src="../resources/images/batteryGreen.png" alt="Workplace" width="600" />
 						
 					</div>
 					<div>Batteri</div>
 				</a>	
 			</div>
-			<div class="text-center text-white hover:underline">
+			<div class="text-center text-green-700 hover:underline">
 				<a>
 					<div class="relative">
-						<img class="my-2 relative top-0 left-0 w-16 h-16 mx-auto" src="../resources/images/customWhite.png" alt="Workplace" width="600" />
+						<img class="my-2 relative top-0 left-0 w-16 h-16 mx-auto" src="../resources/images/customGreen.png" alt="Workplace" width="600" />
 						
 					</div>
 					<div>Special anmodning</div>
@@ -106,7 +106,8 @@
 			</div>
 		</div>
 	</div>
-	<div id="Prices" class="h-96">
+	<!--<div id="pageDivider" class="w-full bg-green-700 h-1"></div>-->
+	<div id="Prices" class="w-full h-64 bg-white">
 			<br>
 			<div class="text-center text-green-700 text-4xl">Priser</div>
 			<br>
